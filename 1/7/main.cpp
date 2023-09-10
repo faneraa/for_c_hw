@@ -12,15 +12,11 @@ int main() {
     for (int i = 0; i < n; ++i)
         scanf("%i", &a[i]);
 
-    int g;
-    scanf("%i", &g);
-
-    for (int i = n; i >= 0; --i){
-        a[i + g] = a[i];
+    for (int i = n; i >= 0; --i) {
+        a[2 * i] = a[i];
+        a[2 * i + 1] = a[i];
     }
-    for (int i = 0; i < g; ++i) {
-        a[i] = a[i + n];
-    }
+    n = 2 * n;
 
     for (int i = 0; i < n; ++i)
         printf("%i ", a[i]);

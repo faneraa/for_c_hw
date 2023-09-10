@@ -1,0 +1,3 @@
+/Users/sharipka/CLionProjects/2/1/5/cmake-build-debug/CMakeFiles/5.dir
+/Users/sharipka/CLionProjects/2/1/5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sharipka/CLionProjects/2/1/5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
